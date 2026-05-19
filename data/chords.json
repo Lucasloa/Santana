@@ -1,11 +1,6 @@
 [
     {
-        "name": "Minor 7 Shape",
-        "image": "https://placehold.co/400x250"
-    },
-
-    {
-        "name": "Major Barre Chord",
-        "image": "https://placehold.co/400x250"
+        "name": "All Chords",
+        "image": "images/guitarchords.png"
     }
 ]
