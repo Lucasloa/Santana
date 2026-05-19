@@ -1,0 +1,108 @@
+[
+    {
+        "title": "Declaration of War (Girls Band Cry)",
+        "images": [
+            "images/tabs/DeclarationOfWar.jpg"
+        ]
+    },
+
+    {
+        "title": "Great Human Quarrel (Girls Band Cry)",
+        "images": [
+            "images/tabs/GreatHumanQuarrel.jpg"
+        ]
+    },
+
+    {
+        "title": "Metro 2033",
+        "images": [
+            "images/tabs/Metro2033.webp"
+        ]
+    },
+
+    {
+        "title": "Momoka and Momoka (Girls Band Cry)",
+        "images": [
+            "images/tabs/MomokaMomoka.jpg"
+        ]
+    },
+
+    {
+        "title": "September",
+        "images": [
+            "images/tabs/September.jpg"
+        ]
+    },
+
+    {
+        "title": "The Princess (Slay the Princess)",
+        "images": [
+            "images/tabs/SlayThePrincess1.webp",
+                        "images/tabs/SlayThePrincess2.webp"
+        ]
+    },
+
+    {
+        "title": "Time To Love (OCTOBER)",
+        "images": [
+            "images/tabs/TimeToLove1.jpg",
+            "images/tabs/TimeToLove2.jpg",
+                        "images/tabs/TimeToLove3.jpg"
+        ]
+    },
+    {
+        "title": "Void (Girls Band Cry)",
+        "images": [
+            "images/tabs/Void.png"
+        ]
+    },
+
+    {
+        "title": "Void Momoka (Girls Band Cry)",
+        "images": [
+            "images/tabs/VoidMomoka.jpg"
+        ]
+    },
+
+    {
+        "title": "Wrong World (Girls Band Cry)",
+        "images": [
+            "images/tabs/WrongWorld.png"
+        ]
+    }
+    ,
+    {
+        "title": "Main Theme (Last of Us)",
+        "images": [
+            "images/tabs/LastOfUs.png",
+                        "images/tabs/LastOfUs2.png"
+        ]
+    }
+        ,
+    {
+        "title": "Nameless Song (Dark Souls)",
+        "images": [
+            "images/tabs/NamelessSongDarkSouls.png",
+                        "images/tabs/NamelessSongDarkSouls2.png"
+        ]
+    }
+            ,
+    {
+        "title": "Promise (Silent Hill 2)",
+        "images": [
+            "images/tabs/SilentHill2Promise.png",
+                        "images/tabs/SilentHill2Promise2.png"
+        ]
+    }
+    ,
+
+    {
+        "title": "To All Of You (Syd Matters)",
+        "images": [
+            "images/tabs/SydMatters ToAllOfYou.png",
+                        "images/tabs/SydMatters ToAllOfYou2.png",
+                        "images/tabs/SydMatters ToAllOfYou3.png"
+        ]
+    }
+
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Squier CV 70s Strat HSS MN BLK",
+        "image": "images/Squier.png",
+        "link": "https://www.thomann.dk/fender_sq_cv_70s_strat_hss_mn_blk.htm"
+    },
+
+    {
+        "name": "Neural DSP Quad Cortex",
+        "image": "https://placehold.co/400x250",
+        "link": "https://www.thomann.dk/neural_dsp_quad_cortex.htm?gad_source=1&gad_campaignid=20549675470&gbraid=0AAAAADuDMCVhj_1w4gpbkDk0tK2GOXx_S&gclid=CjwKCAjw4ufOBhBkEiwAfuC7-bPhjwqIXnee6y-lf0QvYrHwEj_BUN4Ci1nEW_GjtupxzrOhf2HcURoCRf8QAvD_BwE"
+    },
+        {
+        "name": "Neural DSP Nano Cortex",
+        "image": "https://placehold.co/400x250",
+        "link": "https://www.thomann.dk/neural_dsp_nano_cortex.htm"
+    }
+
+]

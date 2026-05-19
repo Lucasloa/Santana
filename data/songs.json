@@ -1,0 +1,71 @@
+[
+    {
+        "title": "Boulevard of Broken Dreams",
+        "artist": "Green Day",
+        "youtube": "https://www.youtube.com/watch?v=uZ_D5CZL_r4"
+    },
+
+    {
+        "title": "Circles",
+        "artist": "Post Malone",
+        "youtube": "https://www.youtube.com/watch?v=s7e_YziMo_4"
+    },
+        {
+        "title": "Dont Look Back in Anger",
+        "artist": "Oasis",
+        "youtube": "https://www.youtube.com/watch?v=mbnmB_hTfiM"
+    }
+    ,
+        {
+        "title": "WonderWall",
+        "artist": "Oasis",
+        "youtube": "https://www.youtube.com/watch?v=o8wM8inaqmo"
+    },
+            {
+        "title": "Superman (Scrubs)",
+        "artist": "Lazlo Bane",
+        "youtube": "https://www.youtube.com/watch?v=LjlkdTJEiFE&ab_channel=YourGuitarSage"
+    }
+    ,
+            {
+        "title": "High and Dry",
+        "artist": "RadioHead",
+        "youtube": "https://www.youtube.com/watch?v=Ryxmk_-XIJ0"
+    }
+        ,
+            {
+        "title": "Sunflower",
+        "artist": "Post Malone",
+        "youtube": "https://www.youtube.com/watch?v=AikrCVRguec"
+    }
+            ,
+            {
+        "title": "Sweather Weather",
+        "artist": "The Neighborhood",
+        "youtube": "https://www.youtube.com/watch?v=HcCzuFIOKFw"
+    }
+                ,
+            {
+        "title": "Fast Car",
+        "artist": "Tracy Chapman",
+        "youtube": "https://www.youtube.com/watch?v=ca7RuPahaQc"
+    }
+                ,
+            {
+        "title": "Viva La Vida",
+        "artist": "Coldplay",
+        "youtube": "https://www.youtube.com/watch?v=lhR434nrXK4"
+    }                ,
+            {
+        "title": "Where Is My Mind",
+        "artist": "The Pixies",
+        "youtube": "https://www.youtube.com/watch?v=d89qBdMTlSs"
+    }
+            ,
+            {
+        "title": "Wish You Were Here",
+        "artist": "Pink Floyd",
+        "youtube": "https://www.youtube.com/watch?v=o2NaGFteNvY"
+    }
+
+]
