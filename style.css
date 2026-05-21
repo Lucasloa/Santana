@@ -12,7 +12,23 @@ body {
     color: white;
     line-height: 1.6;
 }
+/* LOGO IMAGE */
+.logo-image {
 
+    height: 60px;
+    width: auto;
+
+    display: block;
+
+    transition: 0.3s;
+}
+.logo-link {
+
+    margin-right: auto;
+}
+.logo-image:hover {
+    transform: scale(1.05);
+}
 /* NAVBAR */
 .navbar {
 

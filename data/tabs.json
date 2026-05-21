@@ -104,5 +104,47 @@
                         "images/tabs/SydMatters ToAllOfYou3.png"
         ]
     }
+        ,
+
+    {
+        "title": "Everything I'm Not (Matilda Mann)",
+        "images": [
+            "images/tabs/EverythingImNot.png",
+                        "images/tabs/EverythingImNot2.png",
+                        "images/tabs/EverythingImNot3.png"
+        ]
+    }        ,
+
+    {
+        "title": "Overkill (Colin Hay)",
+        "images": [
+            "images/tabs/Overkill.png",
+                        "images/tabs/Overkill2.png"
+        ]
+    }   ,
+
+    {
+        "title": "We're Going To Be Friends (The White Stripes)",
+        "images": [
+            "images/tabs/WereGoingToBeFriends.png",
+                        "images/tabs/WereGoingToBeFriends2.png"
+        ]
+    },
+
+    {
+        "title": "Obstacles (Syd Matters)",
+        "images": [
+            "images/tabs/Obstacles.png"
+        ]
+    } ,
+
+    {
+        "title": "We're Going To Be Friends (The White Stripes)",
+        "images": [
+            "images/tabs/RiverFlowsInYou.png",
+                        "images/tabs/RiverFlowsInYou2.png"
+        ]
+    } 
+
 
 ]

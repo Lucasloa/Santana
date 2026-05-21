@@ -66,6 +66,21 @@
         "title": "Wish You Were Here",
         "artist": "Pink Floyd",
         "youtube": "https://www.youtube.com/watch?v=o2NaGFteNvY"
+    }       ,
+            {
+        "title": "Lemon Boy",
+        "artist": "Cavetown",
+        "youtube": "https://www.youtube.com/watch?v=gU-zzKSfr5k"
+    },
+            {
+        "title": "This Is Home",
+        "artist": "Cavetown",
+        "youtube": "https://www.youtube.com/watch?v=Z1RKLBYGibY"
+    },
+            {
+        "title": "Yellow",
+        "artist": "Coldplay",
+        "youtube": "https://youtu.be/Ird5fAgaZ3k?list=RDIrd5fAgaZ3k"
     }
 
 ]
