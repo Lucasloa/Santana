@@ -39,9 +39,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (lightbox) {
         lightbox.addEventListener("click", (e) => {
-            if (e.target.id === "lightbox") {
-                closeLightbox();
-            }
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
         });
     }
 
@@ -88,26 +88,97 @@ function renderTab(tab) {
     const card = document.createElement("div");
     card.classList.add("card");
 
-    const images = tab.images || []; // 👈 safety fallback
+    const previewImage = tab.images[0];
 
-    let imagesHTML = "";
+    // Create image
+    const img = document.createElement("img");
 
-    images.forEach(img => {
-        imagesHTML += `
-            <img src="${img}"
-                 alt="${tab.title}"
-                 onclick="openLightbox('${img}')">
-        `;
+    img.src = previewImage;
+    img.classList.add("tab-preview");
+    img.alt = tab.title;
+
+    // Click opens gallery
+    img.addEventListener("click", () => {
+        openGallery(tab.images, 0);
     });
 
-    card.innerHTML = `
-        <h3>${tab.title}</h3>
-        <div class="tab-images">
-            ${imagesHTML}
-        </div>
-    `;
+    // Create title
+    const title = document.createElement("h3");
+    title.textContent = tab.title;
+
+    // Add to card
+    card.appendChild(img);
+    card.appendChild(title);
 
     return card;
+}
+function nextImage() {
+
+
+    if (currentGallery.length === 0) return;
+
+    currentIndex++;
+
+    if (currentIndex >= currentGallery.length) {
+        currentIndex = 0;
+    }
+
+    document.getElementById("lightbox-img").src =
+        currentGallery[currentIndex];
+    updateCounter();
+}
+function prevImage() {
+
+    if (currentGallery.length === 0) return;
+
+    currentIndex--;
+
+    if (currentIndex < 0) {
+        currentIndex = currentGallery.length - 1;
+    }
+
+    document.getElementById("lightbox-img").src =
+        currentGallery[currentIndex];
+    updateCounter();
+}
+window.openGallery = function(images, index) {
+
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+
+    if (!lightbox || !lightboxImg) return;
+
+    currentGallery = images;
+    currentIndex = index;
+
+    lightboxImg.src = currentGallery[currentIndex];
+    updateCounter();
+    lightbox.classList.remove("hidden");
+};
+document.getElementById("lightbox-next")
+?.addEventListener("click", (e) => {
+
+    e.stopPropagation();
+    nextImage();
+});
+
+document.getElementById("lightbox-prev")
+?.addEventListener("click", (e) => {
+
+    e.stopPropagation();
+    prevImage();
+});
+let currentGallery = [];
+let currentIndex = 0;
+function updateCounter() {
+
+    const counter =
+        document.getElementById("lightbox-counter");
+
+    if (!counter) return;
+
+    counter.textContent =
+        `${currentIndex + 1} / ${currentGallery.length}`;
 }
 function renderItem(item) {
 
@@ -161,9 +232,12 @@ const lightboxImg = document.getElementById("lightbox-img");
 
 if (lightbox) {
 
-    lightbox.addEventListener("click", () => {
-        lightbox.classList.add("hidden");
-        lightboxImg.src = "";
+    lightbox.addEventListener("click", (e) => {
+
+        if (e.target === lightbox) {
+            closeLightbox();
+        }
+
     });
 }
 function initLightbox() {

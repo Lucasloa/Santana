@@ -41,13 +41,25 @@
 
 </main>
 
-<script src="script.js"></script>
 <div id="lightbox" class="lightbox hidden">
 
-    <span id="lightbox-close" class="lightbox-close">✖</span>
+    <span id="lightbox-close"
+          class="lightbox-close">✖</span>
 
-    <img id="lightbox-img" src="" alt="Fullscreen Tab">
+    <span id="lightbox-prev"
+          class="lightbox-arrow left">❮</span>
 
+    <img id="lightbox-img"
+         src=""
+         alt="Fullscreen Tab">
+
+    <span id="lightbox-next"
+          class="lightbox-arrow right">❯</span>
+    <div id="lightbox-counter"
+        class="lightbox-counter">
+        1 / 1
+    </div>
 </div>
+<script src="script.js"></script>
 </body>
 </html>
