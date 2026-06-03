@@ -1,4 +1,11 @@
 [
+        {
+        "title": "WonderWall (Oasis)",
+        "images": [
+            "images/tabs/Wonderwall.png",
+                        "images/tabs/Wonderwall2.png"
+        ]
+    },
     {
         "title": "Declaration of War (Girls Band Cry) WIP",
         "images": [
@@ -136,6 +143,73 @@
         "images": [
             "images/tabs/WereGoingToBeFriends.png",
                         "images/tabs/WereGoingToBeFriends2.png"
+        ]
+    } ,
+
+    {
+        "title": "His Theme (Undertale)",
+        "images": [
+            "images/tabs/UndertaleHisTheme.png"
+        ]
+    } ,
+
+    {
+        "title": "Main Theme (Undertale)",
+        "images": [
+            "images/tabs/UndertaleMainTheme.png", 
+                                    "images/tabs/UndertaleMainTheme2.png", 
+                                    "images/tabs/UndertaleMainTheme3.png"
+        ]
+    } ,
+
+    {
+        "title": "Cherry Blossom (October)",
+        "images": [
+            "images/tabs/CherryBlossomOctober.png",
+                        "images/tabs/CherryBlossomOctober2.png",
+                                    "images/tabs/CherryBlossomOctober3.png",
+                                                "images/tabs/CherryBlossomOctober4.png",
+                                                            "images/tabs/CherryBlossomOctober5.png"
+        ]
+    } ,
+
+    {
+        "title": "Maiden Astrea (Demons Souls)",
+        "images": [
+            "images/tabs/DemonsSoulsMaidenAstrea.png",
+                        "images/tabs/DemonsSoulsMaidenAstrea2.png"
+        ]
+    } ,
+
+    {
+        "title": "Kiss The Rain (Yurima)",
+        "images": [
+            "images/tabs/KissTheRainYurima.png",
+                        "images/tabs/KissTheRainYurima2.png",
+                                    "images/tabs/KissTheRainYurima3.png"
+        ]
+    } ,    
+        {
+        "title": "River Flows In You (Yurima)",
+        "images": [
+            "images/tabs/RiverFlowsInYouYurima.png",
+                       "images/tabs/RiverFlowsInYouYurima2.png",
+                                  "images/tabs/RiverFlowsInYouYurima3.png"
+
+        ]
+    } ,    
+    {
+        "title": "Main Theme (Fairy Tale)",
+        "images": [
+            "images/tabs/MainThemeFairyTale.png"
+        ]
+    } ,
+
+    {
+        "title": "XO (Eden)",
+        "images": [
+            "images/tabs/XOEden.png",
+                        "images/tabs/XOEden2.png"
         ]
     } 
 
