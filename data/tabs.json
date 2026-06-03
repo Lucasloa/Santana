@@ -182,7 +182,7 @@
     } ,
 
     {
-        "title": "Kiss The Rain (Yurima)",
+        "title": "Kiss The Rain (Yiruma)",
         "images": [
             "images/tabs/KissTheRainYurima.png",
                         "images/tabs/KissTheRainYurima2.png",
@@ -190,11 +190,10 @@
         ]
     } ,    
         {
-        "title": "River Flows In You (Yurima)",
+        "title": "River Flows In You (Yiruma)",
         "images": [
-            "images/tabs/RiverFlowsInYouYurima.png",
-                       "images/tabs/RiverFlowsInYouYurima2.png",
-                                  "images/tabs/RiverFlowsInYouYurima3.png"
+            "images/tabs/RiverFlowsInYou.png",
+                       "images/tabs/RiverFlowsInYou2.png"
 
         ]
     } ,    
