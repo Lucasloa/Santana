@@ -210,6 +210,21 @@
             "images/tabs/XOEden.png",
                         "images/tabs/XOEden2.png"
         ]
+    } ,
+
+    {
+        "title": "Fast Car (Tracy Chapman)",
+        "images": [
+            "images/tabs/FastCarTracyChapman.png",
+                        "images/tabs/FastCarTracyChapman2.png"
+        ]
+    } ,
+
+    {
+        "title": "Wet Hands (C418)",
+        "images": [
+            "images/tabs/WetHandsC418.png"
+        ]
     } 
 
 
